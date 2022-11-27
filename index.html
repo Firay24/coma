@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shorcut icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/292b0f52ab.js" crossorigin="anonymous"></script>
+    <title>COMA</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
+        </div>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check">
+                <i class="fas fa-bars" id="btn"></i>
+                <i class="fas fa-bars" id="btn2" onclick="menu()"></i>
+                <i class="fas fa-times" id="cancel"></i>
+            </label>
+            <ul class="navul" id="navul">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#features">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#benefit">Benefit</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Me</a>
+                </li>
+            </ul>
+            <ul class="navul" id="navul2">
+                <li class="nav-item">
+                    <a onclick="navbar()" class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a onclick="navbar()" class="nav-link" href="#features">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a onclick="navbar()" class="nav-link" href="#benefit">Benefit</a>
+                </li>
+                <li class="nav-item">
+                    <a onclick="navbar()" class="nav-link" href="#about">About Me</a>
+                </li>
+            </ul>
+            
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="home" id="home">
+            <div class="content-home">
+                <div class="text-home">
+                    <h1>Web Hosting Service</h1>
+                    <p>provides data services that have the function of receiving HTTP (HyperText Transfer Protocol) or HTTPS requests sent by clients via a web browser and sending back the results in the form of web pages which are generally in the form of HTML (HyperText Markup Language) documents.</p>
+                </div>
+                <div class="btn-home">
+                    <a href="#contactme"><button>Contact</button></a>
+                </div>
+            </div>
+            <div class="pic-home">
+                <figure>
+                    <img src="/img/blog_img2.png" alt="">
+                </figure>
+            </div>
+        </div>
+        
+        <div class="features" id="features">
+            <article class="card">
+                <i><img class="img-icon" src="img/service1.png" alt=""></i>
+                <h3>User Friendly</h3>
+                <p>a service that is easy to use by anyone and enjoy the most complete features from us. </p>
+                <a class="next" id="next" href=""><img src="/img/next.png" alt=""></a>
+                <a class="next" id="next2" href=""><img src="/img/next2.png" alt=""></a>
+            </article>
+            <article class="card">
+                <i><img class="img-icon" src="img/service2.png" alt=""></i>
+                <h3>High Performance</h3>
+                <p>No need to worry, your website will be accessed easily and quickly anytime and anywhere. </p>
+                <a class="next" id="next" href=""><img src="/img/next.png" alt=""></a>
+                <a class="next" id="next2" href=""><img src="/img/next2.png" alt=""></a>
+            </article>
+            <article class="card">
+                <i><img class="img-icon" src="img/service3.png" alt=""></i>
+                <h3>Good Security</h3>
+                <p>All your data, assets and files will be guaranteed safe. enjoy our services comfortably and safely. </p>
+                <a class="next" id="next" href=""><img src="/img/next.png" alt=""></a>
+                <a class="next" id="next2" href=""><img src="/img/next2.png" alt=""></a>
+            </article>
+        </div>
+
+        <div class="benefit" id="benefit">
+            <div class="imgbenefit">
+                <figure>
+                    <img src="img/blog_img3.png" alt="">
+                </figure>
+            </div>
+            <div class="textbenefit">
+                <h2>We Are A Dynamic Team of Web Server</h2>
+                <p>If you need help, complain about our services or just consult about your website, we are available 24 hours. even if you recommend or give us feedback, it will be very helpful.</p>
+                <h3>PROJECT COMPLETED</h3>
+                <a class="read_more" href="">Read More</a>
+            </div>
+        </div>
+
+        <aside class="about_me" id="about">
+            <div class="titlepage">
+                <h2>About Me</h2>
+                <p>the developer of this website uses html, css and javascript</p>
+            </div>
+            <div class="textbox">
+                <div>
+                    <p>is a 7th semester student at the University of Jember majoring in information systems. residing in Banyuwangi, East Java province. previously participated in an internship at bisai as data science for 6 months in 2022.</p>
+                </div>
+                <div class="profil">
+                    <img src="img/fira.png" alt="">
+                    <h4>Fira Yusi Rukmana <br> <span class="profilname">Front-end and Back-end Website</span> </h4>
+                </div>
+            </div>
+        </aside>
+
+    </main>
+    
+    <footer id="contactme">
+        <div class="container">
+            <div class="contact">
+                <h1>COMA</h1>
+                <ul>
+                      
+                    <li>The easiest, most trusted, <br> best and most complete website <br> hosting and server service <br> in Indonesia </li>
+                </ul>
+                <ul class="social_media">
+                    <li><a href=""><img src="img/instagram.png" alt=""></a></li>
+                    <li><a href=""><img src="img/facebook.png" alt=""></a></li>
+                    <li><a href=""><img src="img/snapchat.png" alt=""></a></li>
+                    <li><a href=""><img src="img/twitter.png" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Useful Link</h3>
+                <ul class="link_menu">
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">About Services</a></li>
+                    <li><a href="">About Departments</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>The Service</h3>
+                <ul class="link_menu">
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">About Services</a></li>
+                    <li><a href="">About Departments</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Contact Us</h3>
+                <ul class="link_menu">
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">About Services</a></li>
+                    <li><a href="">About Departments</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2022 All Rights Reserved. COMA</a></p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

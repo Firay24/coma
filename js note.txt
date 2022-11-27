@@ -1,0 +1,9 @@
+menggunakan fitur navigasi yang mengarahkan ke halaman konten web langsung.
+
+1. Dari lis menu pada navbar saya sertakan id dari masing masing list tersebut. 
+2. Kemudian untuk halaman div konten web juga saya sertakan id dari masing masing konten tersebut.
+3. Menggunakan javascript dengan mengakses selector id untuk masing masing alamat href yang sudah saya beri id
+4. kemudian menggunakan fungsi anchor untuk kondisi apabila menu di klik maka user akan diarahkan ke halaman yang dituju
+5. terakhir ditambahkan transisi smooth agar pergeseran dari navbar ke konten terlihat bagus
+6. dan untuk tampilan website, menggunakan javascript untuk menyembunyikan dan menampilkan menu navbar ketika
+website menampilkan request konten dari pengguna
